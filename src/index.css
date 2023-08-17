@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.buttons-container {
+  margin-bottom: 50px;
+
+  .btn {
+    margin-right: 10px;
+  }
+}
+.car-img {
+  max-height: 50px;
+}
+
+.car-container {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  
+  .pull-left {
+    width: 70%;
+  }
+}
